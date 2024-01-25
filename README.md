@@ -3,7 +3,7 @@ This repository contains the homeworks from the course CENG371-Scientific Comput
 The course covers a variety range of topics such as numerical accuracy, the sources and propagations of errors, algorithms for LU & QR factorizations, 
 singular value decomposition (SVD), solutions of linear systems, linear least square problems (LLSQ), randomized linear algebra (RNLA) and low rank and compressed sensing.
 
-SHORT DESCRIPTION OF HOMEWORKS:
+# SHORT DESCRIPTION OF HOMEWORKS:
 
 HW1: Numerical accuracy, accuracy and speed of summation algorithms (Naive, Compensated (Kahan), Pairwise)
 
