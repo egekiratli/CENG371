@@ -1,0 +1,12 @@
+A = [1,4,3;5,1,2;6,7,8]
+B = [5,3,2;6,7,1;0,7,6]
+
+m,n = length(A)
+n,p = length(B)
+
+AB = zeros
+
+for i = 1:m
+    for j = 1:p
+        AB(i,j) = 0;
+        for k = 1:n

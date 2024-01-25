@@ -1,0 +1,24 @@
+A1 = [1,4,3;5,1,2;6,7,8]
+B1 = [5,3,2;6,7,1;0,7,6]
+
+
+nonuniRMM(A1,B1,2)
+
+
+function [D] = nonuniRMM(A,B,c)
+
+    [m,~] = size(A); %this n is not used (matlab warning)
+    [n,p] = size(B);
+
+    C = zeros(m,c);
+    R = zeros(c,p);
+
+    for t = 1:c
+        i = randsample(n,1);
+        pi = (norm(A(:,i))*norm(B(i,:)))/(norm(A)*norm(B));
+        C(:,t) = A(:,i)/sqrt(c*pi);
+        R(t,:) = B(i,:)/sqrt(c*pi);
+    end
+
+    D = C*R
+end
