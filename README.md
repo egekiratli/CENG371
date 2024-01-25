@@ -1,8 +1,10 @@
+# CENG371 - Scientific Computing
+
 This repository contains the homeworks from the course CENG371-Scientific Computing that I've done during 2023-2024 Fall semester.
 
 The course covers a variety range of topics such as numerical accuracy, the sources and propagations of errors, algorithms for LU & QR factorizations, singular value decomposition (SVD), solutions of linear systems, linear least square problems (LLSQ), randomized linear algebra (RNLA) and low rank and compressed sensing.
 
-# Short Description of Homeworks:
+# Description of Homeworks:
 
 HW1: Numerical accuracy, accuracy and speed of summation algorithms (Naive, Compensated (Kahan), Pairwise)
 
